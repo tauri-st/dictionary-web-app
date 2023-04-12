@@ -64,7 +64,6 @@ nav .dark-mode {
 }
 nav .switch {
   position: relative;
-  display: inline-block;
   width: 40px;
   height: 20px;
 }
