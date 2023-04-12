@@ -1,0 +1,24 @@
+header {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+    .settings {
+      display: flex;
+    }
+
+    .dropdown {
+      display: flex;
+      align-items: center;
+    }
+
+    .dark-mode {
+      display: flex;
+      align-items: center;
+    }
+  }

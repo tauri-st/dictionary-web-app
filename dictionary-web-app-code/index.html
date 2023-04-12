@@ -32,17 +32,23 @@
         <figure>
           <img src="assets/images/logo.svg" alt="Book icon logo">
         </figure>
-        <p class="font-dropdown">Sans Serif</p>
-        <figure>
-          <img src="assets/images/icon-arrow-down.svg" alt="Down arrow icon for dropdown to select fonts">
-        </figure>
-        <label class="switch" for="dark-mode">
-          <input type="checkbox" id="dark-mode" name="dark-mode-toggle">
-          <span class="slider round"></span>
-        </label>
-        <figure>
-          <img src="assets/images/icon-moon.svg" alt="">
-        </figure>
+        <div class="settings">
+          <button class="dropdown">
+            Sans Serif
+            <figure>
+              <img src="assets/images/icon-arrow-down.svg" alt="Down arrow icon for dropdown to select fonts">
+            </figure>
+          </button>
+          <div class="dark-mode">
+            <label class="switch" for="dark-mode">
+              <input type="checkbox" id="dark-mode" name="dark-mode-toggle">
+              <span class="slider round"></span>
+            </label>
+            <figure>
+              <img src="assets/images/icon-moon.svg" alt="">
+            </figure>
+          </div>
+        </div>
       </nav>
       <label class="search" for="search-bar">
         <input class="search" type="text" name="search-bar" value="">
