@@ -86,10 +86,10 @@ nav .slider {
 nav .slider:before {
   position: absolute;
   content: "";
-  height: 18px;
-  width: 18px;
-  left: 4px;
-  bottom: 4px;
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
   background-color: white;
   transition: 0.4s;
 }
@@ -100,7 +100,7 @@ nav input:focus + .slider {
   box-shadow: 0 0 1px #A445ED;
 }
 nav input:checked + .slider:before {
-  transform: translateX(26px);
+  transform: translateX(20px);
 }
 nav .slider.round {
   border-radius: 34px;
