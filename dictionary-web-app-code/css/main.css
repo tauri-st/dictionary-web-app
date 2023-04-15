@@ -72,6 +72,9 @@ nav .dropdown {
   display: flex;
   align-items: center;
 }
+nav button {
+  background-color: white;
+}
 nav .dark-mode {
   display: flex;
   align-items: center;
