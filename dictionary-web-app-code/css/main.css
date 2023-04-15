@@ -59,7 +59,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  min-width: 350px;
+  min-width: 380px;
   /* The switch - the box around the slider */
   /* Hide default HTML checkbox */
   /* The slider */
@@ -74,11 +74,15 @@ nav .dropdown {
 }
 nav button {
   background-color: white;
+  border: none;
+  padding: 0;
 }
 nav .dark-mode {
   display: flex;
   align-items: center;
-  margin: 0 10px;
+  border-left: 1px solid #F4F4F4;
+  margin: 0;
+  padding-left: 12px;
 }
 nav .switch {
   position: relative;
@@ -209,11 +213,6 @@ textarea {
 .search-bar {
   display: flex;
   margin-top: 35px;
-}
-
-button {
-  background-color: white;
-  border: none;
 }
 
 /* ==========================================================================
