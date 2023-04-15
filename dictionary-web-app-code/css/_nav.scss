@@ -1,13 +1,16 @@
 header {
-    padding-top: 30px;
     padding-bottom: 60px;
+  }
+
+  .content-wrapper-top {
+    align-items: center;
   }
   
   nav {
     display: flex;
     justify-content: space-between;
-    margin: 0;
-
+    min-width: 350px;
+    
     .settings {
       display: flex;
     }

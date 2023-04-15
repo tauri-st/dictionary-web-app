@@ -3,9 +3,25 @@ html {
   }
   
   body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     min-height: 100vh;
   }
-  
+
+  .content-wrapper-top,
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    width: 90%;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
   figure {
     display: flex;
     justify-content: center;
@@ -14,9 +30,4 @@ html {
   
   img {
     max-width: 100%;
-  }
-
-  .content-wrapper {
-    width: 85%;
-    margin: 50px 0;
   }

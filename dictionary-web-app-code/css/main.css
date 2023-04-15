@@ -3,7 +3,23 @@ html {
 }
 
 body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   min-height: 100vh;
+}
+
+.content-wrapper-top,
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  width: 90%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
 }
 
 figure {
@@ -14,11 +30,6 @@ figure {
 
 img {
   max-width: 100%;
-}
-
-.content-wrapper {
-  width: 85%;
-  margin: 50px 0;
 }
 
 body {
@@ -38,14 +49,17 @@ h3 {
 }
 
 header {
-  padding-top: 30px;
   padding-bottom: 60px;
+}
+
+.content-wrapper-top {
+  align-items: center;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  min-width: 350px;
   /* The switch - the box around the slider */
   /* Hide default HTML checkbox */
   /* The slider */
@@ -189,6 +203,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.search-bar {
+  display: flex;
+  margin-top: 35px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
