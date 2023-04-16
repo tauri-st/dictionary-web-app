@@ -9,17 +9,25 @@ body {
   min-height: 100vh;
 }
 
-.content-wrapper-top,
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 90%;
+}
+
 .content-wrapper {
   display: flex;
   flex-direction: column;
   margin: 50px 0;
-  width: 90%;
 }
 
 header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 60px;
 }
 
 figure {
@@ -48,18 +56,10 @@ h3 {
   font-size: 1rem;
 }
 
-header {
-  padding-bottom: 60px;
-}
-
-.content-wrapper-top {
-  align-items: center;
-}
-
 nav {
   display: flex;
+  flex-direction: row wrap;
   justify-content: space-between;
-  min-width: 380px;
   /* The switch - the box around the slider */
   /* Hide default HTML checkbox */
   /* The slider */
@@ -75,6 +75,7 @@ nav .dropdown {
 nav button {
   background-color: white;
   border: none;
+  font-weight: bold;
   padding: 0;
 }
 nav .dark-mode {
@@ -212,6 +213,7 @@ textarea {
    ========================================================================== */
 .search-bar {
   display: flex;
+  justify-content: center;
   margin-top: 30px;
 }
 

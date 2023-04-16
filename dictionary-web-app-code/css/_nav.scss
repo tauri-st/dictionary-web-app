@@ -1,15 +1,8 @@
-header {
-    padding-bottom: 60px;
-  }
 
-  .content-wrapper-top {
-    align-items: center;
-  }
-  
   nav {
     display: flex;
+    flex-direction: row wrap;
     justify-content: space-between;
-    min-width: 380px;
     
     .settings {
       display: flex;
@@ -23,6 +16,7 @@ header {
     button {
       background-color: white;
       border: none;
+      font-weight: bold;
       padding: 0;
     }
 
