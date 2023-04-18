@@ -211,10 +211,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.search-bar {
+.search-bar-area {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+.search-input {
+  background-color: #CDCDCD;
+  background: #CDCDCD url(../assets/images/icon-search.svg) no-repeat right;
+  border: none;
+  border-radius: 7px;
+  height: 40px;
+  min-width: 300px;
 }
 
 /* ==========================================================================
