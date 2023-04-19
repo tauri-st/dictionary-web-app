@@ -2,7 +2,7 @@
   nav {
     display: flex;
     flex-direction: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     
     .settings {
       display: flex;
@@ -13,9 +13,14 @@
       align-items: center;
     }
 
+    .dropdown-arrow {
+      margin: 0 16px;
+    }
+
     button {
       background-color: white;
       border: none;
+      font-size: .875rem;
       font-weight: bold;
       padding: 0;
     }
@@ -25,7 +30,7 @@
       align-items: center;
       border-left: 1px solid #F4F4F4;
       margin: 0;
-      padding-left: 12px;
+      padding-left: 16px;
     }
     
     /* The switch - the box around the slider */
