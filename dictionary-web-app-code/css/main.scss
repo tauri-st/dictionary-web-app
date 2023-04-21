@@ -115,13 +115,27 @@
   }
 
   /***** MAIN BODY STYLES *****/
+
+  .word {
+    display: flex;
+    justify-content: space-around;
+  }
+
   h1 {
     margin: 0;
   }
 
   .pronunciation {
     color: colors.$purple;
+    margin-top: 5px;
   }
+
+  .pronunciation-recording {
+    background-color: white;
+    border: none;
+  }
+
+  
 
   /* ==========================================================================
      Helper classes
