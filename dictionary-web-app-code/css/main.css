@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  width: 90%;
+  width: 85%;
 }
 
 .content-wrapper {
@@ -258,6 +258,19 @@ h1 {
 .pronunciation-recording {
   background-color: white;
   border: none;
+}
+
+.part-of-speech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.part-of-speech h2 {
+  font-style: italic;
+  margin: 16px;
+}
+.part-of-speech hr {
+  width: 280px;
 }
 
 /* ==========================================================================

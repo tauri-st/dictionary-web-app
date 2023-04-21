@@ -135,7 +135,21 @@
     border: none;
   }
 
-  
+  .part-of-speech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      color: colors.$light-gray
+      font-style: italic;
+      margin: 16px;
+    }
+
+    hr {
+      width: 280px;
+    }
+  }
 
   /* ==========================================================================
      Helper classes
