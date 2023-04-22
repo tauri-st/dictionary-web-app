@@ -12,7 +12,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 415px;
   width: 85%;
 }
 
@@ -273,6 +273,21 @@ h1 {
 .part-of-speech hr {
   color: #F4F4F4;
   width: 280px;
+}
+
+.meaning {
+  max-width: 85%;
+}
+.meaning h3 {
+  color: #757575;
+  font-weight: normal;
+  padding-left: 50px;
+}
+.meaning ul {
+  padding-left: 70px;
+}
+.meaning ul li::marker {
+  color: #A445ED;
 }
 
 /* ==========================================================================

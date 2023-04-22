@@ -152,6 +152,23 @@
     }
   }
 
+  .meaning {
+    max-width: 85%;
+    
+    h3 {
+      color: colors.$dark-gray;
+      font-weight: normal;
+      padding-left: 50px;
+    }
+
+    ul {
+      padding-left: 70px;
+      li::marker {
+        color: colors.$purple;
+      }
+    }
+  }
+
   /* ==========================================================================
      Helper classes
      ========================================================================== */
