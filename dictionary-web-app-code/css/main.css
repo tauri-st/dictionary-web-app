@@ -276,7 +276,7 @@ h1 {
 }
 
 .meaning {
-  max-width: 85%;
+  min-width: 90%;
 }
 .meaning h3 {
   color: #757575;
@@ -288,6 +288,10 @@ h1 {
 }
 .meaning ul li::marker {
   color: #A445ED;
+}
+.meaning ul .definition {
+  position: relative;
+  right: -10px;
 }
 
 /* ==========================================================================
