@@ -12,8 +12,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  min-width: 415px;
-  width: 85%;
+  width: 80%;
 }
 
 .content-wrapper {
