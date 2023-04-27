@@ -302,6 +302,14 @@ h1 {
   padding-left: 50px;
 }
 
+.source {
+  text-decoration: underline;
+  font-size: 0.875rem;
+}
+.source h4 {
+  color: #757575;
+  font-weight: normal;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
