@@ -185,13 +185,12 @@
   }
 
   .source {
-    text-decoration: underline;
     font-size: .875rem;
     h4 {
       color: colors.$dark-gray;
       font-weight: normal;
-    }
-    .source-area {
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
   }
 

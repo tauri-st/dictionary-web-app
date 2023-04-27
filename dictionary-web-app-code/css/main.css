@@ -303,13 +303,15 @@ h1 {
 }
 
 .source {
-  text-decoration: underline;
   font-size: 0.875rem;
 }
 .source h4 {
   color: #757575;
   font-weight: normal;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
