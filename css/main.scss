@@ -176,6 +176,21 @@
     }
   }
 
+  .synonyms {
+    display: flex;
+    justify-content: space-around;
+
+    h3 {
+      font-weight: normal;
+      color: colors.$dark-gray;
+    }
+    
+    .synonyms-area {
+      color: colors.$purple;
+      font-weight: bold;
+    }
+  }
+
   /* ==========================================================================
      Helper classes
      ========================================================================== */

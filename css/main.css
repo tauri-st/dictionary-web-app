@@ -293,6 +293,19 @@ h1 {
   right: -10px;
 }
 
+.synonyms {
+  display: flex;
+  justify-content: space-around;
+}
+.synonyms h3 {
+  font-weight: normal;
+  color: #757575;
+}
+.synonyms .synonyms-area {
+  color: #A445ED;
+  font-weight: bold;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
