@@ -243,6 +243,7 @@ textarea {
 .word {
   display: flex;
   justify-content: space-around;
+  margin-top: 25px;
 }
 
 h1 {
