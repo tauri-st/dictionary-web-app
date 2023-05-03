@@ -293,6 +293,7 @@ h1 {
   right: -10px;
 }
 
+<<<<<<< HEAD:css/main.css
 .synonyms {
   display: flex;
   justify-content: space-around;
@@ -304,6 +305,24 @@ h1 {
 .synonyms .synonyms-area {
   color: #A445ED;
   font-weight: bold;
+=======
+.quote {
+  min-width: 90%;
+}
+.quote .quote-area {
+  color: #757575;
+  padding-left: 50px;
+}
+
+.source {
+  font-size: 0.875rem;
+}
+.source h4 {
+  color: #757575;
+  font-weight: normal;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+>>>>>>> 69fc6a466e1046911bffd7790088e05d592ea32c:dictionary-web-app-code/css/main.css
 }
 
 /* ==========================================================================

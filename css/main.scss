@@ -188,6 +188,22 @@
     .synonyms-area {
       color: colors.$purple;
       font-weight: bold;
+
+  .quote {
+    min-width: 90%;
+    .quote-area {
+      color: colors.$dark-gray;
+      padding-left: 50px;
+    }
+  }
+
+  .source {
+    font-size: .875rem;
+    h4 {
+      color: colors.$dark-gray;
+      font-weight: normal;
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
   }
 
