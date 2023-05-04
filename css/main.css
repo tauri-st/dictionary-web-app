@@ -330,6 +330,9 @@ h1 {
 .source hr {
   width: 300px;
 }
+.source .source-link {
+  display: flex;
+}
 
 /* ==========================================================================
    Helper classes
