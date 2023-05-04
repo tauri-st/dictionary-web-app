@@ -316,6 +316,9 @@ h1 {
 }
 
 .source {
+  display: flex;
+  align-content: center;
+  flex-flow: column wrap;
   font-size: 0.875rem;
 }
 .source h4 {
@@ -323,6 +326,9 @@ h1 {
   font-weight: normal;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+.source hr {
+  width: 300px;
 }
 
 /* ==========================================================================

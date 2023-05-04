@@ -201,12 +201,19 @@
   }
 
   .source {
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
     font-size: .875rem;
     h4 {
       color: colors.$dark-gray;
       font-weight: normal;
       text-decoration: underline;
       text-underline-offset: 3px;
+    }
+
+    hr {
+      width: 300px;
     }
   }
 
