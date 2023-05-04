@@ -334,6 +334,12 @@ h1 {
   display: flex;
 }
 
+footer .attribution {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
