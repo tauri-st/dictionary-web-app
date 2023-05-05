@@ -341,6 +341,11 @@ footer .attribution {
   margin-top: 40px;
 }
 
+.dark-mode-switch body {
+  background-color: black;
+  color: white;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
