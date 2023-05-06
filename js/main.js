@@ -1,4 +1,4 @@
-var button = document.querySelector("#dark-mode-toggle");
+var button = document.querySelector("#dark-mode");
 var body = document.querySelector("body");
 
 button.addEventListener("click", function () {

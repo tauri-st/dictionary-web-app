@@ -345,6 +345,11 @@ footer .attribution {
   background-color: black;
   color: white;
 }
+.dark-mode-switch .pronunciation-recording,
+.dark-mode-switch .dropdown {
+  color: white;
+  background-color: black;
+}
 
 /* ==========================================================================
    Helper classes
