@@ -7,10 +7,8 @@ themeSwitchInput.addEventListener("click", function () {
     if (body.classList.contains("dark")) {
         body.classList.remove("dark");
         ball.classList.remove("move-right");
-        slider.classList.remove("switch-purple");
     } else {
     body.classList.add("dark");
     ball.classList.add("move-right");
-    slider.classList.add("switch-purple");
     }
 });
