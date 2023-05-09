@@ -108,7 +108,6 @@ nav .switch {
 }
 nav .ball {
   position: absolute;
-  content: "";
   height: 16px;
   width: 16px;
   left: 2px;
@@ -119,7 +118,7 @@ nav .ball {
 }
 
 .ball.move-right {
-  transform: translateX(20px);
+  transform: translateX(34px);
 }
 
 body.dark {
@@ -127,8 +126,8 @@ body.dark {
   color: white;
 }
 
-.pronunciation-recording.dark,
-.dropdown.dark {
+.dark .pronunciation-recording,
+.dark .dropdown {
   background-color: black;
   color: white;
 }
