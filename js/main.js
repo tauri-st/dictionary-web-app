@@ -1,6 +1,6 @@
-var themeSwitchInput = document.querySelector("#toggle");
-var ball = document.querySelector(".ball");
-var body = document.querySelector("body");
+const themeSwitchInput = document.querySelector("#toggle");
+const ball = document.querySelector(".ball");
+const body = document.querySelector("body");
 
 themeSwitchInput.addEventListener("click", function () {
     if (body.classList.contains("dark")) {
