@@ -122,6 +122,9 @@ nav .ball {
 nav .ball.move-right {
   transform: translateX(20px);
 }
+nav .moon.purple {
+  color: #A445ED;
+}
 
 body.dark {
   background-color: black;
