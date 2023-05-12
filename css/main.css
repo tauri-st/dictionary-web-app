@@ -106,6 +106,9 @@ nav .switch {
   border-radius: 34px;
   transition: 0.4s;
 }
+nav .switch.purple {
+  background-color: #A445ED;
+}
 nav .ball {
   position: absolute;
   height: 16px;
@@ -116,8 +119,7 @@ nav .ball {
   border-radius: 50%;
   transition: transform 0.4s ease-out;
 }
-
-.ball.move-right {
+nav .ball.move-right {
   transform: translateX(20px);
 }
 
