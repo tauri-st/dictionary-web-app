@@ -1,3 +1,4 @@
+/***** NAV STYLES INC FONT DROPDOWN AND DARKMODE TOGGLE *****/
 @use 'colors';
 
   nav {
@@ -8,7 +9,7 @@
     .settings {
       display: flex;
     }
-
+/** FONT DROPDOWN MENU **/
     .dropdown {
       display: flex;
       align-items: center;
@@ -26,6 +27,7 @@
       padding: 0;
     }
 
+  /** DARKMODE TOGGLE **/
     .switch-container {
       display: flex;
       align-items: center;
@@ -71,7 +73,7 @@
       border-radius: 50%;
       transition: transform .4s ease-out;
     }
-
+/** DARKMODE STYLES **/
     .ball.move-right {
       -webkit-transform: translateX(20px);
       -ms-transform: translateX(20px);

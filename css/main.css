@@ -57,13 +57,17 @@ h4 {
   font-size: 1rem;
 }
 
+/***** NAV STYLES INC FONT DROPDOWN AND DARKMODE TOGGLE *****/
 nav {
   display: flex;
   flex-direction: row wrap;
   justify-content: space-around;
+  /** FONT DROPDOWN MENU **/
+  /** DARKMODE TOGGLE **/
   /* Hide default HTML checkbox */
   /* The slider */
   /* The switch - the box around the slider */
+  /** DARKMODE STYLES **/
 }
 nav .settings {
   display: flex;
