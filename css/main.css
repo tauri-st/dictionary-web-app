@@ -41,6 +41,7 @@ img {
   max-width: 100%;
 }
 
+/***** FONT STYLES AND SIZES *****/
 body {
   font-family: "Inter", sans-serif;
 }
@@ -57,7 +58,7 @@ h4 {
   font-size: 1rem;
 }
 
-/***** NAV STYLES INC FONT DROPDOWN AND DARKMODE TOGGLE *****/
+/***** COLORS *****/ /***** NAV STYLES INC FONT DROPDOWN AND DARKMODE TOGGLE *****/
 nav {
   display: flex;
   flex-direction: row wrap;
