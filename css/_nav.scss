@@ -37,12 +37,22 @@
     }
     
     /* Hide default HTML checkbox */
-    .switch-container input {
+    /* .switch-container input {
       height: 0;
       opacity: 0;
       width: 0;
-    }
+    } */
     
+    button.toggle {
+      border: 0;
+      padding: 0;
+      background: transparent;
+      font: inherit;
+    }
+
+    .toggle:focus {
+      outline: 0;
+    }
     /* The slider */
     /* The switch - the box around the slider */
     .switch {
