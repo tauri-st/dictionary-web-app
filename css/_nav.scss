@@ -54,31 +54,32 @@
       outline: 0;
     }
 
-    /*+ .Toggle:focus .Toggle__display,
-.Toggle__input:focus + .Toggle__display {
+    /*+ .Toggle:focus .Toggle-display,
+.Toggle__input:focus + .Toggle-display {
   
 } */
 
-/*+ .Toggle:focus:not(:focus-visible) .Toggle__display,
-.Toggle__input:focus:not(:focus-visible) + .Toggle__display {
+/*+ .Toggle:focus:not(:focus-visible) .Toggle-display,
+.Toggle__input:focus:not(:focus-visible) + .Toggle-display {
   
 }*/
 
-/*+ .Toggle[aria-pressed="true"] .Toggle__display::before,
-.Toggle__input:checked + .Toggle__display::before {
+/*+ .Toggle[aria-pressed="true"] .Toggle-display::before,
+.Toggle__input:checked + .Toggle-display::before {
   
 }*/
 
-/*+ .Toggle[disabled] .Toggle__display,
-.Toggle__input:disabled + .Toggle__display {
+/*+ .Toggle[disabled] .Toggle-display,
+.Toggle-input:disabled + .Toggle-display {
   
 }*/
 
-/*+ [dir="rtl"] .Toggle[aria-pressed="true"] + .Toggle__display::before,
-[dir="rtl"] .Toggle__input:checked + .Toggle__display::before {
+/*+ [dir="rtl"] .Toggle[aria-pressed="true"] + .Toggle-display::before,
+[dir="rtl"] .Toggle-input:checked + .Toggle-display::before {
   
 }*/
-    /* The slider */
+    
+/* The slider */
     /* The switch - the box around the slider */
     /*.switch {
       position: relative;
