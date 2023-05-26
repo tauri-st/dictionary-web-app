@@ -64,6 +64,24 @@
       outline: 0;
     }
 
+     .toggle-display {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 0.1em rolid rgb(0 0 0/ 0.2);
+        position: relative;
+        width: 40px;
+        height: 20px;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: colors.$dark-gray;
+        border-radius: 34px;
+        transition: .4s;
+      }
+
     /*+ .toggle:focus .toggle-display,
 .toggle__input:focus + .toggle-display {
   
