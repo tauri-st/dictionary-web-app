@@ -29,7 +29,7 @@
 
   /** DARKMODE TOGGLE **/
     .switch-container {
-      display: flex;
+      display: inline-flex;
       align-items: center;
       border-left: 1px solid colors.$light-gray;
       margin: 0;
