@@ -155,6 +155,13 @@ nav .switch-container {
   margin: 0;
   padding-left: 16px;
 }
+nav .toggle {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin-right: 1ch;
+}
 nav button.toggle {
   border: 0;
   padding: 0;

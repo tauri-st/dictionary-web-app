@@ -35,6 +35,14 @@
       margin: 0;
       padding-left: 16px;
     }
+
+    .toggle {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      position: relative;
+      margin-right: 1ch;
+    }
     
     /* Hide default HTML checkbox */
     /* .switch-container input {
