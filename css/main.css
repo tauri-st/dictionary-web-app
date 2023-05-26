@@ -71,24 +71,26 @@ nav {
     opacity: 0;
     width: 0;
   } */
-  /*+ .Toggle:focus .Toggle-display,
-  .Toggle__input:focus + .Toggle-display {
+  /*Hide default buttons styles*/
+  /*Hide focus outline bc it will be on the toggle-display*/
+  /*+ .toggle:focus .toggle-display,
+  .toggle__input:focus + .toggle-display {
 
   } */
-  /*+ .Toggle:focus:not(:focus-visible) .Toggle-display,
-  .Toggle__input:focus:not(:focus-visible) + .Toggle-display {
+  /*+ .toggle:focus:not(:focus-visible) .toggle-display,
+  .Toggle__input:focus:not(:focus-visible) + .toggle-display {
 
   }*/
-  /*+ .Toggle[aria-pressed="true"] .Toggle-display::before,
-  .Toggle__input:checked + .Toggle-display::before {
+  /*+ .Toggle[aria-pressed="true"] .toggle-display::before,
+  .toggle__input:checked + .toggle-display::before {
 
   }*/
-  /*+ .Toggle[disabled] .Toggle-display,
-  .Toggle-input:disabled + .Toggle-display {
+  /*+ .toggle[disabled] .toggle-display,
+  .toggle-input:disabled + .toggle-display {
 
   }*/
-  /*+ [dir="rtl"] .Toggle[aria-pressed="true"] + .Toggle-display::before,
-  [dir="rtl"] .Toggle-input:checked + .Toggle-display::before {
+  /*+ [dir="rtl"] .toggle[aria-pressed="true"] + .toggle-display::before,
+  [dir="rtl"] .toggle-input:checked + .toggle-display::before {
 
   }*/
   /* The slider */
