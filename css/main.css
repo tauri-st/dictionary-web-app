@@ -65,6 +65,7 @@ nav {
   justify-content: space-around;
   /** FONT DROPDOWN MENU **/
   /** DARKMODE TOGGLE **/
+  /* The toggle container */
   /* Hide default HTML checkbox */
   /* .switch-container input {
     height: 0;
@@ -73,6 +74,8 @@ nav {
   } */
   /*Hide default buttons styles*/
   /*Hide focus outline bc it will be on the toggle-display*/
+  /* Visible toggle switch */
+  /* The toggle handle/ball */
   /*+ .toggle:focus .toggle-display,
   .toggle__input:focus + .toggle-display {
 
@@ -187,6 +190,18 @@ nav .toggle-display {
   background-color: #757575;
   border-radius: 34px;
   transition: 0.4s;
+}
+nav .toggle-display::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.4s ease-out;
 }
 
 body.dark {
