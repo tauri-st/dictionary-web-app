@@ -93,6 +93,8 @@
         width: 16px;
         left: 2px;
         bottom: 2px;
+        box-sizing: border-box;
+        border: 0.1 solid rgb(0 0 0 / 0.2);
         background-color: white;
         border-radius: 50%;
         transition: transform .4s ease-out;
