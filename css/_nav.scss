@@ -100,6 +100,12 @@
         transition: transform .4s ease-out;
       }
 
+      //.toggle-display::before.move-right {
+        //-webkit-transform: translateX(20px);
+        //-ms-transform: translateX(20px);
+        //transform: translateX(20px);
+      //}*
+
     /*+ .toggle:focus .toggle-display,
 .toggle__input:focus + .toggle-display {
   
@@ -110,10 +116,12 @@
   
 }*/
 
-/*+ .Toggle[aria-pressed="true"] .toggle-display::before,
++ .Toggle[aria-pressed="true"] .toggle-display::before,
 .toggle__input:checked + .toggle-display::before {
-  
-}*/
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
 
 /*+ .toggle[disabled] .toggle-display,
 .toggle-input:disabled + .toggle-display {
