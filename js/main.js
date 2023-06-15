@@ -1,9 +1,9 @@
 /** 
-const themeSwitchInput = document.querySelector("#toggle");
-const ball = document.querySelector(".ball");
+const themeSwitchInput = document.querySelector("#toggle"); switch display
+const ball = document.querySelector(".ball"); switch handle
 const body = document.querySelector("body");
 const moon = document.querySelector(".moon");
-const toggle = document.querySelector("switch");*/
+const toggle = document.querySelector("switch"); switch input*/
 
 /**themeSwitchInput.addEventListener("click", function () {
     if (body.classList.contains("dark")) {
@@ -20,11 +20,10 @@ const toggle = document.querySelector("switch");*/
 }); */
 
 const toggleButton = document.querySelector('.toggle');
-
-const themeSwitchInput = document.querySelector("#toggle"); //the switch display
-const ball = document.querySelector(".ball"); //the handle
+const themeSwitchInput = document.querySelector(".toggle-display"); //the switch display
+const ball = document.querySelector(".toggle-display::before"); //the handle
 const body = document.querySelector("body");
-const toggle = document.querySelector(".switch"); //the checkbox
+let isAriaPressed = button.getAttribute('aria-pressed') === 'true'; //the input
     
     /** toggleButton.addEventListener('click', toggleButtonClickHandler);
     toggleButton.addEventListener('keydown', toggleButtonKeydownHandler);

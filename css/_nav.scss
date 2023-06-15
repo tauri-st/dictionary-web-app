@@ -110,8 +110,8 @@
   
 }*/
 
-+ .Toggle[aria-pressed="true"] .toggle-display::before,
-.toggle__input:checked + .toggle-display::before {
++ .Toggle[aria-pressed="true"] .toggle-display::before
+/*.toggle__input:checked + .toggle-display::before */ {
   background-color: colors.$purple;
   -webkit-transform: translateX(20px);
   -ms-transform: translateX(20px);
