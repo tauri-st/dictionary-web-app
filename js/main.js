@@ -1,10 +1,11 @@
+/** 
 const themeSwitchInput = document.querySelector("#toggle");
 const ball = document.querySelector(".ball");
 const body = document.querySelector("body");
 const moon = document.querySelector(".moon");
-const toggle = document.querySelector("switch");
+const toggle = document.querySelector("switch");*/
 
-themeSwitchInput.addEventListener("click", function () {
+/**themeSwitchInput.addEventListener("click", function () {
     if (body.classList.contains("dark")) {
         body.classList.remove("dark");
         ball.classList.remove("move-right");
@@ -16,11 +17,16 @@ themeSwitchInput.addEventListener("click", function () {
     moon.classList.add("purple");
     toggle.classList.add("purple");
     }
-});
+}); */
 
-/**function init() {
-    var toggleButton = document.getElementById('toggle');
-    toggleButton.addEventListener('click', toggleButtonClickHandler);
+const toggleButton = document.querySelector('.toggle');
+
+const themeSwitchInput = document.querySelector("#toggle"); //the switch display
+const ball = document.querySelector(".ball"); //the handle
+const body = document.querySelector("body");
+const toggle = document.querySelector(".switch"); //the checkbox
+    
+    /** toggleButton.addEventListener('click', toggleButtonClickHandler);
     toggleButton.addEventListener('keydown', toggleButtonKeydownHandler);
     toggleButton.addEventListener('keyup', toggleButtonKeyupHandler);
   } */
