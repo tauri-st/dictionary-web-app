@@ -19,7 +19,7 @@ const toggle = document.querySelector("switch"); switch input*/
     }
 }); */
 
-const toggleButton = document.querySelector('.toggle');
+const toggleButton = document.querySelector('.toggle'); //toggle and label
 const themeSwitchInput = document.querySelector(".toggle-display"); //the switch display
 const ball = document.querySelector(".toggle-display::before"); //the handle
 const body = document.querySelector("body");
