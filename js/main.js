@@ -85,4 +85,4 @@ let isAriaPressed = button.getAttribute('aria-pressed') === 'true'; //the input
      'xlink:href',
      isAriaPressed ? ICON_SOUND_URL : ICON_MUTE_URL
    );
- }
+ }; */
