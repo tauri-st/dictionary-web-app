@@ -86,5 +86,3 @@ let isAriaPressed = button.getAttribute('aria-pressed') === 'true'; //the input
      isAriaPressed ? ICON_SOUND_URL : ICON_MUTE_URL
    );
  }
- 
- window.onload = init; */
