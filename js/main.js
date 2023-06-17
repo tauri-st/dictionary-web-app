@@ -52,9 +52,9 @@ function init() {
   * @param {KeyboardEvent} event
   */
  function toggleButtonKeydownHandler(event) {
-   if (event.keyCode === 32) {
+   if (event.code === 'Space') {
      event.preventDefault();
-   } else if (event.keyCode === 13) {
+   } else if (event.code === 'Enter') {
      event.preventDefault();
      toggleButtonState(event.currentTarget);
    }
@@ -66,7 +66,7 @@ function init() {
   * @param {KeyboardEvent} event
   */
   function toggleButtonKeyupHandler(event) {
-   if (event.keyCode === 32) {
+   if (event.code === 'Space') {
      event.preventDefault();
      toggleButtonState(event.currentTarget);
    }
