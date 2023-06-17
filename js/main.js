@@ -19,16 +19,18 @@ const toggle = document.querySelector("switch"); switch input*/
     }
 }); */
 
-const toggleButton = document.querySelector('.toggle'); //toggle and label
+
 const themeSwitchInput = document.querySelector(".toggle-display"); //the switch display
 const ball = document.querySelector(".toggle-display::before"); //the handle
 const body = document.querySelector("body");
 let isAriaPressed = button.getAttribute('aria-pressed') === 'true'; //the input
-    
-    /** toggleButton.addEventListener('click', toggleButtonClickHandler);
+  
+function init() {
+  const toggleButton = document.querySelector('.toggle'); //toggle and label
+    toggleButton.addEventListener('click', toggleButtonClickHandler);
     toggleButton.addEventListener('keydown', toggleButtonKeydownHandler);
     toggleButton.addEventListener('keyup', toggleButtonKeyupHandler);
-  } */
+  }
 /**
   * Toggles the toggle button’s state if it’s actually a button element or has
   * the `role` attribute set to `button`.
@@ -86,3 +88,5 @@ let isAriaPressed = button.getAttribute('aria-pressed') === 'true'; //the input
      isAriaPressed ? ICON_SOUND_URL : ICON_MUTE_URL
    );
  }; */
+
+ window.onload = init;
