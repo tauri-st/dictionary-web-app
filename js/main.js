@@ -37,56 +37,56 @@ function init() {
   *
   * @param {MouseEvent} event
   */
- /**function toggleButtonClickHandler(event) {
+ function toggleButtonClickHandler(event) {
    if (
      event.currentTarget.tagName === 'button' ||
      event.currentTarget.getAttribute('role') === 'button'
    ) {
      toggleButtonState(event.currentTarget);
    }
- } */
+ }
  
  /**
   * Toggles the toggle button’s state with the enter key.
   *
   * @param {KeyboardEvent} event
   */
- /** function toggleButtonKeydownHandler(event) {
+ function toggleButtonKeydownHandler(event) {
    if (event.keyCode === 32) {
      event.preventDefault();
    } else if (event.keyCode === 13) {
      event.preventDefault();
      toggleButtonState(event.currentTarget);
    }
- } */
+ }
  
  /**
   * Toggles the toggle button’s state with space key.
   *
   * @param {KeyboardEvent} event
   */
- /** function toggleButtonKeyupHandler(event) {
+  function toggleButtonKeyupHandler(event) {
    if (event.keyCode === 32) {
      event.preventDefault();
      toggleButtonState(event.currentTarget);
    }
- } */
+ }
  
  /**
   * Toggles the toggle button’s state between *pressed* and *not pressed*.
   *
   * @param {HTMLElement} button
   */
- /** function toggleButtonState(button) {
+ function toggleButtonState(button) {
    var isAriaPressed = button.getAttribute('aria-pressed') === 'true';
  
    button.setAttribute('aria-pressed', isAriaPressed ? 'false' : 'true');
- 
+ //SET THE RESULTS OF SETTING ARIA PRESSED TO TRUE HERE
    var icon = button.querySelector('use');
    icon.setAttribute(
      'xlink:href',
      isAriaPressed ? ICON_SOUND_URL : ICON_MUTE_URL
    );
- }; */
+ };
 
  window.onload = init;
