@@ -79,14 +79,18 @@ function init() {
   */
  function toggleButtonState(button) {
    var isAriaPressed = button.getAttribute('aria-pressed') === 'true';
- 
+    if (body.classList.contains("dark")) {
+      body.classList.remove("dark");
+    } else {
+      body.classList.add("dark");
+    }
    button.setAttribute('aria-pressed', isAriaPressed ? 'false' : 'true');
  //SET THE RESULTS OF SETTING ARIA PRESSED TO TRUE HERE
-   var icon = button.querySelector('use');
+   /**var icon = button.querySelector('use');
    icon.setAttribute(
      'xlink:href',
      isAriaPressed ? ICON_SOUND_URL : ICON_MUTE_URL
-   );
+   ); */
  };
 
  window.onload = init;

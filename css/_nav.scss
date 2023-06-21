@@ -35,15 +35,6 @@
       margin: 0;
       padding-left: 16px;
     }
-
-    /* The toggle container */
-    .toggle {
-      display: inline-flex;
-      align-items: center;
-      flex-wrap: wrap;
-      position: relative;
-      margin-right: 1ch;
-    }
     
     /* Hide default HTML checkbox */
     /* .switch-container input {
@@ -52,8 +43,13 @@
       width: 0;
     } */
     
-    /*Hide default buttons styles*/
     button.toggle {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      position: relative;
+      margin-right: 1ch;
+      /*Hide default buttons styles*/
       border: 0;
       padding: 0;
       background: transparent;
