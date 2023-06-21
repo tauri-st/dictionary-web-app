@@ -23,10 +23,9 @@ const toggle = document.querySelector("switch"); switch input*/
 const themeSwitchInput = document.querySelector(".toggle-display"); //the switch display
 const ball = document.querySelector(".toggle-display::before"); //the handle
 const body = document.querySelector("body");
-let isAriaPressed = button.getAttribute('aria-pressed') === 'true'; //the input
   
 function init() {
-  const toggleButton = document.querySelector('.toggle'); //toggle and label
+  const toggleButton = document.querySelector('#toggle'); //toggle and label
     toggleButton.addEventListener('click', toggleButtonClickHandler);
     toggleButton.addEventListener('keydown', toggleButtonKeydownHandler);
     toggleButton.addEventListener('keyup', toggleButtonKeyupHandler);
@@ -78,7 +77,7 @@ function init() {
   * @param {HTMLElement} button
   */
  function toggleButtonState(button) {
-   var isAriaPressed = button.getAttribute('aria-pressed') === 'true';
+   let isAriaPressed = button.getAttribute('aria-pressed') === 'true';
     if (body.classList.contains("dark")) {
       body.classList.remove("dark");
     } else {
