@@ -163,13 +163,19 @@
     /*.moon.purple {
       color: colors.$purple;
     }*/
-
-    body.dark {
-      background-color: black;
-      color: white;
-    }
     
     .purple {
       background-color: colors.$purple;
     }
+  }
+
+  body.dark {
+    background-color: black;
+    color: white;
+  }
+
+  .dark .pronunciation-recording,
+  .dark .dropdown {
+    background-color: black;
+    color: white;
   }
