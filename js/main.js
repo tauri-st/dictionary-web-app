@@ -80,8 +80,11 @@ function init() {
    let isAriaPressed = button.getAttribute('aria-pressed') === 'true';
     if (body.classList.contains("dark")) {
       body.classList.remove("dark");
+      themeSwitchInput.classList.remove("purple");
     } else {
       body.classList.add("dark");
+      themeSwitchInput.classList.remove("gray");
+      themeSwitchInput.classList.add("purple");
     }
    button.setAttribute('aria-pressed', isAriaPressed ? 'false' : 'true');
  //SET THE RESULTS OF SETTING ARIA PRESSED TO TRUE HERE

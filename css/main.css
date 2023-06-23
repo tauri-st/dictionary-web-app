@@ -65,14 +65,12 @@ nav {
   justify-content: space-around;
   /** FONT DROPDOWN MENU **/
   /** DARKMODE TOGGLE **/
-  /* The toggle container */
   /* Hide default HTML checkbox */
   /* .switch-container input {
     height: 0;
     opacity: 0;
     width: 0;
   } */
-  /*Hide default buttons styles*/
   /*Hide focus outline bc it will be on the toggle-display*/
   /* Visible toggle switch */
   /* The toggle handle/ball */
@@ -82,10 +80,6 @@ nav {
   } */
   /*+ .toggle:focus:not(:focus-visible) .toggle-display,
   .Toggle__input:focus:not(:focus-visible) + .toggle-display {
-
-  }*/
-  /*+ .Toggle[aria-pressed="true"] .toggle-display::before,
-  .toggle__input:checked + .toggle-display::before {
 
   }*/
   /*+ .toggle[disabled] .toggle-display,
@@ -158,20 +152,19 @@ nav .switch-container {
   margin: 0;
   padding-left: 16px;
 }
-nav .toggle {
+nav button#toggle {
   display: inline-flex;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
   margin-right: 1ch;
-}
-nav button.toggle {
+  /*Hide default buttons styles*/
   border: 0;
   padding: 0;
   background: transparent;
   font: inherit;
 }
-nav .toggle:focus {
+nav #toggle:focus {
   outline: 0;
 }
 nav .toggle-display {
@@ -205,16 +198,15 @@ nav .toggle-display::before {
   border-radius: 50%;
   transition: transform 0.4s ease-out;
 }
-
-body.dark {
+nav + #toggle[aria-pressed=true].toggle-display::before.move-right {
+  transform: translateX(20px);
+}
+nav body.dark {
   background-color: black;
   color: white;
 }
-
-.dark .pronunciation-recording,
-.dark .dropdown {
-  background-color: black;
-  color: white;
+nav .purple {
+  background-color: #A445ED;
 }
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
