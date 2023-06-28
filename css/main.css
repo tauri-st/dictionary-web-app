@@ -74,10 +74,6 @@ nav {
   /*Hide focus outline bc it will be on the toggle-display*/
   /* Visible toggle switch */
   /* The toggle handle/ball */
-  /*+ .toggle:focus .toggle-display,
-  .toggle__input:focus + .toggle-display {
-
-  } */
   /*+ .toggle:focus:not(:focus-visible) .toggle-display,
   .Toggle__input:focus:not(:focus-visible) + .toggle-display {
 
@@ -197,6 +193,10 @@ nav .toggle-display::before {
   background-color: white;
   border-radius: 50%;
   transition: transform 0.4s ease-out;
+}
+nav #toggle:focus .toggle-display {
+  outline: 1px dotted #212121;
+  outline: 1px auto -webkit-focus-ring-color;
 }
 nav #toggle[aria-pressed=true] .toggle-display::before {
   transform: translateX(20px);

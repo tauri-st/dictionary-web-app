@@ -96,10 +96,11 @@
         transition: transform .4s ease-out;
       }
 
-    /*+ .toggle:focus .toggle-display,
-.toggle__input:focus + .toggle-display {
-  
-} */
+//When the input is focused, provide the display the default outline styles from the browser to mimic a native control. This can be customised to have a custom focus outline.
+#toggle:focus .toggle-display {
+  outline: 1px dotted #212121;
+  outline: 1px auto -webkit-focus-ring-color; 
+}
 
 /*+ .toggle:focus:not(:focus-visible) .toggle-display,
 .Toggle__input:focus:not(:focus-visible) + .toggle-display {
