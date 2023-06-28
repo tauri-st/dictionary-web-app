@@ -192,3 +192,30 @@
     background-color: black;
     color: white;
   }
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: black;
+    }
+    .pronunciation-recording,
+    .dropdown {
+      background-color: white;
+      color: black;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+    button.pronunciation-recording,
+    .dropdown {
+      background-color: black;
+      color: white;
+    }
+    button#toggle {
+      color: white;
+    }
+  }
