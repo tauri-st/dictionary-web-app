@@ -87,12 +87,6 @@ function init() {
       themeSwitchInput.classList.remove("gray");
       themeSwitchInput.classList.add("purple");
     }
-   //SET THE RESULTS OF SETTING ARIA PRESSED TO TRUE HERE
-   /**var icon = button.querySelector('use');
-   icon.setAttribute(
-     'xlink:href',
-     isAriaPressed ? ICON_SOUND_URL : ICON_MUTE_URL
-   ); */
  };
 
  window.onload = init;

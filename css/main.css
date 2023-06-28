@@ -66,12 +66,6 @@ nav {
   justify-content: space-around;
   /** FONT DROPDOWN MENU **/
   /** DARKMODE TOGGLE **/
-  /* Hide default HTML checkbox */
-  /* .switch-container input {
-    height: 0;
-    opacity: 0;
-    width: 0;
-  } */
   /*Hide focus outline bc it will be on the toggle-display*/
   /* Visible toggle switch */
   /* The toggle handle/ball */
@@ -98,21 +92,6 @@ nav {
    * 1. The cross looks visually bigger than the checkmark so we adjust its
    *    size. This might not be needed depending on the icons.
    */
-  /* The slider */
-  /* The switch - the box around the slider */
-  /*.switch {
-    position: relative;
-    width: 40px;
-    height: 20px;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: colors.$dark-gray;
-    border-radius: 34px;
-    transition: .4s;
-  }*/
   /*.switch.purple {
     background-color: colors.$purple;
   }*/
