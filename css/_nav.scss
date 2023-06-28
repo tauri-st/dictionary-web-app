@@ -164,6 +164,13 @@
     .purple {
       background-color: colors.$purple;
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      .toggle-display,
+      .toggle-display::before {
+        transition-duration: 0ms;
+      }
+    }
   }
 
   body.dark {

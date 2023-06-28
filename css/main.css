@@ -204,6 +204,12 @@ nav #toggle[aria-pressed=true] .toggle-display::before {
 nav .purple {
   background-color: #A445ED;
 }
+@media (prefers-reduced-motion: reduce) {
+  nav .toggle-display,
+  nav .toggle-display::before {
+    transition-duration: 0ms;
+  }
+}
 
 body.dark {
   background-color: black;
