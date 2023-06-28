@@ -198,7 +198,7 @@ nav .toggle-display::before {
   border-radius: 50%;
   transition: transform 0.4s ease-out;
 }
-nav + #toggle[aria-pressed=true].toggle-display::before.move-right {
+nav #toggle[aria-pressed=true] .toggle-display::before {
   transform: translateX(20px);
 }
 nav .purple {

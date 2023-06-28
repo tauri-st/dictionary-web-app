@@ -106,10 +106,7 @@
   
 }*/
 
-+ #toggle[aria-pressed="true"].toggle-display::before.move-right
-/*.toggle__input:checked + .toggle-display::before */ {
-  -webkit-transform: translateX(20px);
-  -ms-transform: translateX(20px);
+#toggle[aria-pressed="true"] .toggle-display::before {
   transform: translateX(20px);
 }
 

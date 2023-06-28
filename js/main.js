@@ -78,6 +78,7 @@ function init() {
   */
  function toggleButtonState(button) {
    let isAriaPressed = button.getAttribute('aria-pressed') === 'true';
+   button.setAttribute('aria-pressed', isAriaPressed ? 'false' : 'true');
     if (body.classList.contains("dark")) {
       body.classList.remove("dark");
       themeSwitchInput.classList.remove("purple");
@@ -86,8 +87,7 @@ function init() {
       themeSwitchInput.classList.remove("gray");
       themeSwitchInput.classList.add("purple");
     }
-   button.setAttribute('aria-pressed', isAriaPressed ? 'false' : 'true');
- //SET THE RESULTS OF SETTING ARIA PRESSED TO TRUE HERE
+   //SET THE RESULTS OF SETTING ARIA PRESSED TO TRUE HERE
    /**var icon = button.querySelector('use');
    icon.setAttribute(
      'xlink:href',
