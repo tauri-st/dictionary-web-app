@@ -129,6 +129,28 @@
 [dir="rtl"] .toggle-input:checked + .toggle-display::before {
   
 }*/
+
+.toggle-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  fill: currentcolor;
+  vertical-align: middle;
+}
+
+/**
+ * 1. The cross looks visually bigger than the checkmark so we adjust its
+ *    size. This might not be needed depending on the icons.
+ */
+.toggle-icon-cross {
+  color: #e74c3c;
+  font-size: 85%; /* 1 */
+}
+
+.toggle-icon-checkmark {
+  color: #1fb978;
+}
     
 /* The slider */
     /* The switch - the box around the slider */

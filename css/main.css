@@ -94,6 +94,10 @@ nav {
   [dir="rtl"] .toggle-input:checked + .toggle-display::before {
 
   }*/
+  /**
+   * 1. The cross looks visually bigger than the checkmark so we adjust its
+   *    size. This might not be needed depending on the icons.
+   */
   /* The slider */
   /* The switch - the box around the slider */
   /*.switch {
@@ -211,6 +215,21 @@ nav #toggle:focus:not(:focus-visible) .toggle-display {
 }
 nav #toggle[aria-pressed=true] .toggle-display::before {
   transform: translateX(20px);
+}
+nav .toggle-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  fill: currentcolor;
+  vertical-align: middle;
+}
+nav .toggle-icon-cross {
+  color: #e74c3c;
+  font-size: 85%; /* 1 */
+}
+nav .toggle-icon-checkmark {
+  color: #1fb978;
 }
 nav .purple {
   background-color: #A445ED;
