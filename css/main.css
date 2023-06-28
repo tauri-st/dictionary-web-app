@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /****** GENERAL STYLES *****/
 html {
   scroll-behavior: smooth;
@@ -74,10 +75,17 @@ nav {
   /*Hide focus outline bc it will be on the toggle-display*/
   /* Visible toggle switch */
   /* The toggle handle/ball */
-  /*+ .toggle:focus:not(:focus-visible) .toggle-display,
-  .Toggle__input:focus:not(:focus-visible) + .toggle-display {
-
-  }*/
+  /**
+   *    When the input is focused, provide the display the default outline
+   *    styles from the browser to mimic a native control. This can be
+   *    customised to have a custom focus outline.
+   */
+  /**
+   *    When the toggle is interacted with with a mouse click (and therefore
+   *    the focus does not have to be ‘visible’ as per browsers heuristics),
+   *    remove the focus outline. This is the native checkbox’s behaviour where
+   *    the focus is not visible when clicking it.
+   */
   /*+ .toggle[disabled] .toggle-display,
   .toggle-input:disabled + .toggle-display {
 
@@ -197,6 +205,9 @@ nav .toggle-display::before {
 nav #toggle:focus .toggle-display {
   outline: 1px dotted #212121;
   outline: 1px auto -webkit-focus-ring-color;
+}
+nav #toggle:focus:not(:focus-visible) .toggle-display {
+  outline: 0;
 }
 nav #toggle[aria-pressed=true] .toggle-display::before {
   transform: translateX(20px);
