@@ -221,4 +221,7 @@
     span.toggle-display {
       background-color: colors.$purple;
     }
+    span.toggle-display::before {
+      transform: translateX(20px);
+    }
   }
