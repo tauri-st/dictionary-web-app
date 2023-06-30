@@ -11,9 +11,9 @@
    Base styles: opinionated defaults
    ========================================================================== */
    @use 'general-element-properties';
+   @use 'colors';
    @use 'fonts';
    @use 'nav';
-   @use 'colors';
 
    html {
     color: #222;
