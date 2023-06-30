@@ -1,6 +1,8 @@
 ### Questions
 - Have I properly put in the License notice per the [copyright by W3C](https://www.w3.org/copyright/software-license-2023/) for the material I used for the
-toggle and dropdown menu?
+toggle and dropdown menu? Under the LICENSE.txt and the Acknowledgments section of this README
+
+Note that all other sections of this README are currently incomplete and a work in progress. I am blogging my progress on [Code Newbie](https://community.codenewbie.org/taurist) and will largely be deriving from this when filling out the README.
 
 # Frontend Mentor - Dictionary web app solution
 
