@@ -1,25 +1,3 @@
-/** 
-const themeSwitchInput = document.querySelector("#toggle"); switch display
-const ball = document.querySelector(".ball"); switch handle
-const body = document.querySelector("body");
-const moon = document.querySelector(".moon");
-const toggle = document.querySelector("switch"); switch input*/
-
-/**themeSwitchInput.addEventListener("click", function () {
-    if (body.classList.contains("dark")) {
-        body.classList.remove("dark");
-        ball.classList.remove("move-right");
-        moon.classList.remove("purple");
-        toggle.classList.remove("purple");
-    } else {
-    body.classList.add("dark");
-    ball.classList.add("move-right");
-    moon.classList.add("purple");
-    toggle.classList.add("purple");
-    }
-}); */
-
-
 const themeSwitchInput = document.querySelector(".toggle-display"); //the switch display
 const ball = document.querySelector(".toggle-display::before"); //the handle
 const body = document.querySelector("body");
