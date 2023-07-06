@@ -1,3 +1,4 @@
+/****************** DARKMODE TOGGLE ******************/
 const themeSwitchInput = document.querySelector(".toggle-display"); //the switch display
 const ball = document.querySelector(".toggle-display::before"); //the handle
 const body = document.querySelector("body");
