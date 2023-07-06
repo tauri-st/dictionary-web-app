@@ -91,8 +91,7 @@
 
 /**
  *    When the input is focused, provide the display the default outline
- *    styles from the browser to mimic a native control. This can be
- *    customised to have a custom focus outline.
+ *    styles from the browser to mimic a native control.
  */
 #toggle:focus .toggle-display {
   outline: 1px dotted #212121;
@@ -144,54 +143,30 @@
 .toggle-icon-checkmark {
   color: #1fb978;
 }
-
-    /*.switch.purple {
-      background-color: colors.$purple;
-    }*/
     
-    /*.ball {
-      position: absolute;
-      height: 16px;
-      width: 16px;
-      left: 2px;
-      bottom: 2px;
-      background-color: white;
-      border-radius: 50%;
-      transition: transform .4s ease-out;
-    }*/
-/** DARKMODE STYLES **/
-    /*.ball.move-right {
-      -webkit-transform: translateX(20px);
-      -ms-transform: translateX(20px);
-      transform: translateX(20px);
-    }*/
+.purple {
+  background-color: colors.$purple;
+}
 
-    /*.moon.purple {
-      color: colors.$purple;
-    }*/
-    
-    .purple {
-      background-color: colors.$purple;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .toggle-display,
-      .toggle-display::before {
-        transition-duration: 0ms;
-      }
+  @media (prefers-reduced-motion: reduce) {
+    .toggle-display,
+    .toggle-display::before {
+      transition-duration: 0ms;
     }
   }
+}
 
-  body.dark {
-    background-color: black;
-    color: white;
-  }
+body.dark {
+  background-color: black;
+  color: white;
+}
 
-  .dark button#toggle {
-    color: white;
-  }
-  .dark .pronunciation-recording,
-  .dark .dropdown {
-    background-color: black;
-    color: white;
-  }
+.dark button#toggle {
+  color: white;
+}
+
+.dark .pronunciation-recording,
+.dark .dropdown {
+  background-color: black;
+  color: white;
+}
