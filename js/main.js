@@ -1,3 +1,10 @@
+/**
+ * Copyright © 2023 W3C®. This software or document includes material copied from 
+ * or derived from [Button Examples]https://www.w3.org/WAI/ARIA/apg/patterns/button/examples/button/
+ * and [the Navigation Button Example]https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-links/.
+ * [Full text of W3CSoftware License]https://www.w3.org/copyright/document-license-2023/
+ */
+
 /****************** DARKMODE TOGGLE ******************/
 const themeSwitchInput = document.querySelector(".toggle-display"); //the switch display
 const ball = document.querySelector(".toggle-display::before"); //the handle
