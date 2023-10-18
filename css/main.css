@@ -42,7 +42,7 @@ img {
   max-width: 100%;
 }
 
-/***** FONT STYLES AND SIZES *****/
+/***** COLORS *****/ /***** FONT STYLES AND SIZES *****/
 body {
   font-family: "Inter", sans-serif;
 }
@@ -59,7 +59,7 @@ h4 {
   font-size: 1rem;
 }
 
-/***** COLORS *****/ /***** NAV STYLES INC FONT DROPDOWN AND DARKMODE TOGGLE *****/
+/***** NAV STYLES INC FONT DROPDOWN AND DARKMODE TOGGLE *****/
 nav {
   display: flex;
   flex-direction: row wrap;
@@ -71,8 +71,7 @@ nav {
   /* The toggle handle/ball */
   /**
    *    When the input is focused, provide the display the default outline
-   *    styles from the browser to mimic a native control. This can be
-   *    customised to have a custom focus outline.
+   *    styles from the browser to mimic a native control.
    */
   /**
    *    When the toggle is interacted with with a mouse click (and therefore
@@ -92,28 +91,6 @@ nav {
    * 1. The cross looks visually bigger than the checkmark so we adjust its
    *    size. This might not be needed depending on the icons.
    */
-  /*.switch.purple {
-    background-color: colors.$purple;
-  }*/
-  /*.ball {
-    position: absolute;
-    height: 16px;
-    width: 16px;
-    left: 2px;
-    bottom: 2px;
-    background-color: white;
-    border-radius: 50%;
-    transition: transform .4s ease-out;
-  }*/
-  /** DARKMODE STYLES **/
-  /*.ball.move-right {
-    -webkit-transform: translateX(20px);
-    -ms-transform: translateX(20px);
-    transform: translateX(20px);
-  }*/
-  /*.moon.purple {
-    color: colors.$purple;
-  }*/
 }
 nav .settings {
   display: flex;
