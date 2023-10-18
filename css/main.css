@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
 /****** GENERAL STYLES *****/
 html {
   scroll-behavior: smooth;
@@ -42,7 +52,8 @@ img {
   max-width: 100%;
 }
 
-/***** COLORS *****/ /***** FONT STYLES AND SIZES *****/
+/***** COLORS *****/
+/***** FONT STYLES AND SIZES *****/
 body {
   font-family: "Inter", sans-serif;
 }
@@ -212,16 +223,6 @@ body.dark {
   color: white;
 }
 
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
 html {
   color: #222;
   font-size: 1em;
@@ -300,20 +301,19 @@ textarea {
 }
 
 .search-input {
-  background-color: #F4F4F4;
+  background-color: #C9E8BA;
   border: none;
-  border-radius: 12px 0 0 12px;
+  border-radius: 50px 0 0 50px;
   font-weight: bold;
-  height: 45px;
-  padding-left: 20px;
-  min-width: 280px;
+  height: 77px;
+  min-width: 380px;
 }
 
 .magnifying-glass {
   background-color: #F4F4F4;
-  border-radius: 0 12px 12px 0;
+  border-radius: 0 50px 50px 0;
   margin: 0;
-  padding-right: 20px;
+  padding: 0 10px;
 }
 
 /***** MAIN BODY STYLES *****/
