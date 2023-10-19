@@ -199,7 +199,7 @@ nav .toggle-icon-checkmark {
   color: #1fb978;
 }
 nav .purple {
-  background-color: #A445ED;
+  background-color: #A445ED; 
 }
 @media (prefers-reduced-motion: reduce) {
   nav .toggle-display,
@@ -304,16 +304,23 @@ textarea {
   background-color: #C9E8BA;
   border: none;
   border-radius: 50px 0 0 50px;
+  font-size: 1.25rem;
   font-weight: bold;
+  padding-left: 30px;
   height: 77px;
-  min-width: 380px;
+  min-width: 350px;
 }
 
 .magnifying-glass {
-  background-color: #F4F4F4;
+  background-color: #C9E8BA;
   border-radius: 0 50px 50px 0;
   margin: 0;
-  padding: 0 10px;
+  padding: 0 18px;
+  width: 42px;
+}
+
+.search-svg {
+  width: 100%;
 }
 
 /***** MAIN BODY STYLES *****/
