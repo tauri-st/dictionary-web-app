@@ -111,8 +111,12 @@
   .search-button {
     background-color: #196160;
     border-radius: 0 50px 50px 0;
-    margin: 0;
+    margin-right: 20px;
     padding: 0 18px;
+  }
+
+  .search-button:hover {
+    background-color: #0D9D9B;
   }
 
   .refresh-button {
@@ -120,6 +124,10 @@
     border-radius: 25px;
     height: 77px;
     padding: 0 20px;
+  }
+
+  .refresh-button:hover {
+    background-color: #C5497F;
   }
 
   .icon {
