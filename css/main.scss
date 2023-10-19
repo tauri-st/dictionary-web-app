@@ -124,6 +124,27 @@
     background-color: #8F2D56;
     border-radius: 25px;
     height: 77px;
+    padding: 0 20px;
+  }
+
+  .icon {
+    display: inline-block;
+    color: #444444;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+  .icon-spinner11 {
+    /* Using currentColor above lets
+    us use `color` for changing the color
+    of our icons: */
+    color: white;
+    
+    /* The width and height of the SVG
+    was previously set to 1em.
+    This allows us to use `font-size`
+    to change the size of our icon: */
+    font-size: 36px;
   }
 
   /***** MAIN BODY STYLES *****/
