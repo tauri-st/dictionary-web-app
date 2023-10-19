@@ -460,6 +460,24 @@ h1 {
   display: flex;
 }
 
+footer .content-wrapper {
+  background-color: #196160;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .icon-github {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: white;
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
 footer .attribution {
   display: flex;
   flex-flow: row wrap;
