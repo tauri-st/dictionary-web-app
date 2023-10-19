@@ -199,7 +199,7 @@ nav .toggle-icon-checkmark {
   color: #1fb978;
 }
 nav .purple {
-  background-color: #A445ED; 
+  background-color: #A445ED;
 }
 @media (prefers-reduced-motion: reduce) {
   nav .toggle-display,
@@ -312,7 +312,7 @@ textarea {
 }
 
 .magnifying-glass {
-  background-color: #C9E8BA;
+  background-color: #196160;
   border-radius: 0 50px 50px 0;
   margin: 0;
   padding: 0 18px;
@@ -321,6 +321,10 @@ textarea {
 
 .search-svg {
   width: 100%;
+}
+
+.refresh-button {
+  background-color: #8F2D56;
 }
 
 /***** MAIN BODY STYLES *****/
