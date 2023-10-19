@@ -108,7 +108,7 @@
     min-width: 350px;
   }
 
-  .magnifying-glass {
+  .search-button {
     background-color: #196160;
     border-radius: 0 50px 50px 0;
     margin: 0;
@@ -135,6 +135,19 @@
     fill: currentColor;
   }
   .icon-spinner11 {
+    /* Using currentColor above lets
+    us use `color` for changing the color
+    of our icons: */
+    color: white;
+    
+    /* The width and height of the SVG
+    was previously set to 1em.
+    This allows us to use `font-size`
+    to change the size of our icon: */
+    font-size: 36px;
+  }
+
+  .icon-search {
     /* Using currentColor above lets
     us use `color` for changing the color
     of our icons: */
