@@ -325,6 +325,8 @@ textarea {
 
 .refresh-button {
   background-color: #8F2D56;
+  border-radius: 25px;
+  height: 77px;
 }
 
 /***** MAIN BODY STYLES *****/
